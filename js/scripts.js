@@ -47,13 +47,6 @@ $(document).ready(function() {
 		}
 	});
 
-
-// Accordion
-$( function() {
-	$("#accordion").accordion();
-});
-
-
 	// There's an error ("a.IndexOf is not a function") loading the Stellar Parallax Library. Requires a work-around.
 		// Stellar Parallax Feature
 	// $("#contact").stellar();

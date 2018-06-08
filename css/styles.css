@@ -84,15 +84,30 @@ h1, h2, h3, p, li {
 
 div#about.container {
 	background-color: #CCC;
-	padding-bottom: 36px;
+	padding-bottom: 86px;
 }
 
-div.img-adam img {
-	align-items: center;
-}
 
 div.main-text p {
 	font-size: 1.5em;
+}
+
+div.modal-button {
+	padding-top: 20px;
+}
+
+div.modal-button button {
+	align-content: center;
+}
+
+.modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+.modal-content h1 {
+	margin-left: 32px;
 }
 
 ul#skill-list li {
@@ -109,6 +124,10 @@ ul#skill-list li {
 }
 
 /* Work Section */
+div#work-container {
+	padding-bottom: 60px;
+}
+
 .work-img {
 	display: block;
 	margin: auto;
@@ -133,26 +152,6 @@ ul#skill-list li {
 	font-weight: 100;
 }
 
-/* Learn More */
-
-div.modal-button {
-	margin: auto;
-	padding: 15px;
-}
-
-div.modal-button button {
-	align-content: center;
-}
-
-.modalembed {
-	height: 500px;
-	width: 100%;
-	padding: 10px;
-}
-
-.modal-content h1 {
-	margin-left: 32px;
-}
 
 
 .ui-state-active {
@@ -168,10 +167,11 @@ div.modal-button button {
 
 
 /* Contact Page */
-#contact {
+div#contact {
 	background-image: url("../img/contact.jpg");
 	background-attachment: fixed;
 	background-size: cover;
+	background-color: #EEE;
 	color: black;
 	padding: 100px 0;
 	font-family: Helvetica, Arial, sans-serif;
@@ -219,9 +219,10 @@ div.modal-button button {
 
 /* Footer */
 
-.footer {
+footer {
 	display: block;
 	margin: auto;
+	background-color: #EEE
 }
 .footer a:active {
 	color: #E87600;

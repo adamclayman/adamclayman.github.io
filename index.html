@@ -15,7 +15,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<!-- jQuery & Bootstrap -->
+	<!-- jQuery, Bootstrap and Parallax Js -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
@@ -23,6 +23,8 @@
   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/parallax.min.js"></script>
+
 
 	<!-- jQuery UI & Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -181,6 +183,23 @@
 				<h3>My Story</h3>
 				<p>Since graduating from The University of Chicago in 2007, I've enjoyed working for clients as an SAP Programmer in the United States, France, and Canada.</p>
 				<p>Following those adventures, I went back to school to train as a science teacher, but ultimately found the career was not the right fit. So I'm now back in front of a terminal, engaged in full-stack web programming.</p>
+				<div class="header">
+					<h3>My Resumé</h3>
+					<div class="modal-button">
+						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Review Resume</button>
+					</div>
+				</div>
+				<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg">
+						<div class="modal-content">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h1>My Resumé</h1>
+							<hr>
+							<embed id="resume" src="resume.pdf" class="modalembed">
+						</div>
+					</div>
+				</div>		
+
 			</div>
 		</div><!-- end introduction -->
 		<div class="col-md-4 skill">
@@ -209,84 +228,61 @@
 		</div><!-- work div -->
 	</div><!-- container -->
 
-<hr>
+	<div id="contact" class="contact container" data-stellar-background-ratio="0.5">
+		<div class="col-lg-4 col-md-4">
+			<div>
+				<div id="meet-me">
+					<h2>Want to meet?</h2>
+				</div>			
+				<div class="address" id="address">
+					<div id="map"></div>
 
-	<div class="container row faq" id="faq">
-		<div class="header">
-			<h1 class="header">My Resumé</h1>
-			<div class="modal-button text-center">
-				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Review Resume</button>
+					<p></br>
+					BOCA RATON, FL</br>
+					+1 (312) 414 - 7628</br>
+					</p>
+
+				</div> <!-- end address div -->
+
+			</div> <!-- end div -->
+		</div> <!-- end first div-->
+
+
+		<div id="write-me" class="col-lg-8 col-md-8">
+			<div class="header">
+			<h2 class="text-center">Drop me a line!</h2> 
+			<form>
+				<div class="form-group" class="col-lg-4 col-md-4">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" placeholder="Enter your name." id="name" autocomplete="name">
+				</div>
+				<div class="form-group" class="col-lg-4 col-md-4">
+					<label for="telephone">Telephone</label>
+					<input id="telephone" type="text" class="form-control input-medium bfh-phone" placeholder="+1 (321) 252-9626" autocomplete="tel">
+				</div>
+				<div class="form-group">
+					<label for="e-mail">* E-mail</label>
+					<input type="email" class="form-control" placeholder="Your email address here." id="e-mail" autocomplete="email" required="required">
+				</div>
+				<label for="message">* Message</label>
+				<textarea style="resize:none" cols="40" rows="5" class="form-control message-box" placeholder="Your message here." id="message" required="required"></textarea>
+				<p id="char-count"></p>
+				<p id="visible-comment"></p>
+				<button type="submit" class="btn btn-default" id="message-submit">Submit</button>
+			</form>
 			</div>
 		</div>
-		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h1>My Resumé</h1>
-					<hr>
-					<embed id="resume" src="resume.pdf" class="modalembed">
-				</div>
-			</div>
-		</div>		
 	</div>
-
-<hr>
-
-<div id="contact" class="contact container" data-stellar-background-ratio="0.5">
-	<div class="col-lg-4 col-md-4">
-		<div>
-			<div id="meet-me">
-				<h2>Want to meet?</h2>
-			</div>			
-			<div class="address" id="address">
-				<div id="map"></div>
-
-				<p></br>
-				BOCA RATON, FL</br>
-				+1 (312) 414 - 7628</br>
-				</p>
-
-			</div> <!-- end address div -->
-
-		</div> <!-- end div -->
-	</div> <!-- end first div-->
-
-
-	<div id="write-me" class="col-lg-8 col-md-8">
-		<div class="header">
-		<h2 class="text-center">Drop me a line!</h2> 
-		<form>
-			<div class="form-group" class="col-lg-4 col-md-4">
-				<label for="name">Name</label>
-				<input type="text" class="form-control" placeholder="Enter your name." id="name" autocomplete="name">
-			</div>
-			<div class="form-group" class="col-lg-4 col-md-4">
-				<label for="telephone">Telephone</label>
-				<input id="telephone" type="text" class="form-control input-medium bfh-phone" placeholder="+1 (321) 252-9626" autocomplete="tel">
-			</div>
-			<div class="form-group">
-				<label for="e-mail">* E-mail</label>
-				<input type="email" class="form-control" placeholder="Your email address here." id="e-mail" autocomplete="email" required="required">
-			</div>
-			<label for="message">* Message</label>
-			<textarea style="resize:none" cols="40" rows="5" class="form-control message-box" placeholder="Your message here." id="message" required="required"></textarea>
-			<p id="char-count"></p>
-			<p id="visible-comment"></p>
-			<button type="submit" class="btn btn-default" id="message-submit">Submit</button>
-		</form>
-	</div>
-</div>
-</div>
 
     <!-- ============================= -->
-<footer>
-	<div id="copyright">&copy; Adam Clayman 02018</div>
-	<div id="share-buttons">
-		<div id="twitter-button">
-			<a class="twitter-follow-button" href="https://twitter.com/adamtheclayman" data-show-screen-name="false" data-show-count="false">Follow @adamtheclayman</a>		
+	<footer>
+		<div id="copyright">&copy; Adam Clayman 02018</div>
+		<div id="share-buttons">
+			<div id="twitter-button">
+				<a class="twitter-follow-button" href="https://twitter.com/adamtheclayman" data-show-screen-name="false" data-show-count="false">Follow @adamtheclayman</a>		
+			</div>
+			<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
 		</div>
-		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
-	</div>
-</footer>
+	</footer>
   </body>
 </html>
