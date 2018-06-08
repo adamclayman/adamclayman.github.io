@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Adam Clayman. Developing Rails Engineer.</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- jQuery & Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- jQuery UI & Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+	<!-- Stellar.js -->
+  	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+
+	<!-- Google Maps JS -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcyiS0dLXEF8N7tp2m4bqkFFWyqDZOCjI&callback=initMap"
+    async defer></script>
+
+
+	<!-- Custom CSS & JS -->
+    <script type="text/javascript" src="js/work.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+	<div id="fb-root"></div>
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar">
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+
+<!--
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Adam Clayman. Junior Rails Engineer.</h1>
+        <p><strong>Serving all your web development needs.</strong></p>
+        <a href="about.html" alt="About Me">About Me</a></br>
+        <a href="contact.html" alt="Contact Me">Contact Me</a></br>
+        <a href="faq.html" alt="FAQ">FAQ</a></br>
+        <a href="https://www.google.com/search?q=adam+clayman">Find me on Google</a>
+      </div>
+    </div>
+
+-->
+	<!-- navbar starts here -->
+
+	<nav>
+		<div id="navbar" class="navbar navbar-inverse navbar-fixed-top nav-tabs" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="project-name navbar-brand">
+						<a href="#" alt="Home page link">Adam Clayman</a>
+					</div> <!-- end project-name -->
+				</div><!-- end navbar header -->
+				<div class="nav navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						  <li class="active"><a href="#">Home</a></li>
+						  <li><a href="#about">About</a></li>
+			            <li class="dropdown">
+			              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+			                Work <span class="caret"></span>
+			              </a>
+			              <ul class="dropdown-menu">
+
+<!--
+			                <li><a href="#work1">WORK1</a></li>
+			                <li><a href="#work2">WORK2</a></li>
+			                <li><a href="#work3">WORK3</a></li>
+-->
+			              </ul>
+			            </li>						
+            			<li><a href="#faq">FAQ</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+					</ul>
+				</div><!-- end nav -->
+			</div><!-- end nav container -->
+		</div><!-- end navbar -->		
+	</nav>
+	<div class="container">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="img/portfolioheroimage.jpg" alt="Image of Desktop Workspace & Computer">
+		      <div class="carousel-caption">
+		        Where your work gets done.
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="img/portfolioheroimage2.jpg" alt="Typewriter Image">
+		      <div class="carousel-caption">
+		        Careful attention to design specifications.
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="img/portfolioheroimage3.jpg" alt="Another Desktop Workspace with Orange Chair">
+		      <div class="carousel-caption">
+		        Execution guaranteed.
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Studious Engineering</h2>
+          <p>When you have a job that requires meticulous attention to detail, you can call on me to engineer the solution. Once an SAP Programmer and Teacher, Web Programming is now my sole focus and passion.</p>
+          <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target=".bs-example-modal-lg" title="See my resumé">View resume &raquo;</a></p>
+        </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Project Goals</h2>
+          I have a very strong work ethic. Project work frequently consumes me. With the right offer on hand, I can commit at least 40 hours a week to achieve your project's goals.</p>
+       </div><!-- /col -->
+        <div class="col-md-4">
+          <h2>Course Goals</h2>
+          <p>Career changer and full stack web developer looking to advance my present skill set. My ideal goal? Work within the world of edtech. But I'm a pragmatist, and I will work for almost any industry.</p>
+        </div><!-- /col -->
+      </div><!-- /row -->
+
+
+
+
+    </div> <!-- /container -->
+
+	<div class="container" id="about">
+
+		<div class="header">
+			<h1>Junior Web Developer</h1>
+		</div><!-- end header -->
+		<div class="img-adam col-md-4 text-center">
+			<h3>Adam Clayman</h3>
+			<img src="img/adam.jpg" alt="Drawing of Adam" class="img-responsive center-block">
+		</div><!-- end image -->
+		<div class="col-md-4 intro">
+			<div class="main-text">
+				<h3>My Story</h3>
+				<p>Since graduating from The University of Chicago in 2007, I've enjoyed working for clients as an SAP Programmer in the United States, France, and Canada.</p>
+				<p>Following those adventures, I went back to school to train as a science teacher, but ultimately found the career was not the right fit. So I'm now back in front of a terminal, engaged in full-stack web programming.</p>
+			</div>
+		</div><!-- end introduction -->
+		<div class="col-md-4 skill">
+			<h3>My Skills</h3>
+				<ul id="skill-list">
+					<li>Ruby on Rails</li>
+					<li>Ruby</li>
+					<li>Javascript ES6</li>
+					<li>SQL</li>
+					<li>CSS</li>
+					<li>HTML</li>
+					<li>Git, SVN, Hg</li>
+					<li>Agile</li>
+				</ul>
+		</div><!-- end skill -->
+		<!-- end main-text -->
+	</div> <!-- end container about -->
+
+
+	<div class="container" id="work-container">
+		<div class="header">
+			<h1>Work</h1>		
+		</div><!-- container header -->
+
+		<div id="work">
+		</div><!-- work div -->
+	</div><!-- container -->
+
+<hr>
+
+	<div class="container row faq" id="faq">
+		<div class="header">
+			<h1 class="header">My Resumé</h1>
+			<div class="modal-button text-center">
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bs-example-modal-lg">Review Resume</button>
+			</div>
+		</div>
+		<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h1>My Resumé</h1>
+					<hr>
+					<embed id="resume" src="resume.pdf" class="modalembed">
+				</div>
+			</div>
+		</div>		
+	</div>
+
+<hr>
+
+<div id="contact" class="contact container" data-stellar-background-ratio="0.5">
+	<div class="col-lg-4 col-md-4">
+		<div>
+			<div id="meet-me">
+				<h2>Want to meet?</h2>
+			</div>			
+			<div class="address" id="address">
+				<div id="map"></div>
+
+				<p></br>
+				BOCA RATON, FL</br>
+				+1 (312) 414 - 7628</br>
+				</p>
+
+			</div> <!-- end address div -->
+
+		</div> <!-- end div -->
+	</div> <!-- end first div-->
+
+
+	<div id="write-me" class="col-lg-8 col-md-8">
+		<div class="header">
+		<h2 class="text-center">Drop me a line!</h2> 
+		<form>
+			<div class="form-group" class="col-lg-4 col-md-4">
+				<label for="name">Name</label>
+				<input type="text" class="form-control" placeholder="Enter your name." id="name" autocomplete="name">
+			</div>
+			<div class="form-group" class="col-lg-4 col-md-4">
+				<label for="telephone">Telephone</label>
+				<input id="telephone" type="text" class="form-control input-medium bfh-phone" placeholder="+1 (321) 252-9626" autocomplete="tel">
+			</div>
+			<div class="form-group">
+				<label for="e-mail">* E-mail</label>
+				<input type="email" class="form-control" placeholder="Your email address here." id="e-mail" autocomplete="email" required="required">
+			</div>
+			<label for="message">* Message</label>
+			<textarea style="resize:none" cols="40" rows="5" class="form-control message-box" placeholder="Your message here." id="message" required="required"></textarea>
+			<p id="char-count"></p>
+			<p id="visible-comment"></p>
+			<button type="submit" class="btn btn-default" id="message-submit">Submit</button>
+		</form>
+	</div>
+</div>
+</div>
+
+    <!-- ============================= -->
+<footer>
+	<div id="copyright">&copy; Adam Clayman 02018</div>
+	<div id="share-buttons">
+		<div id="twitter-button">
+			<a class="twitter-follow-button" href="https://twitter.com/adamtheclayman" data-show-screen-name="false" data-show-count="false">Follow @adamtheclayman</a>		
+		</div>
+		<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+	</div>
+</footer>
+  </body>
+</html>

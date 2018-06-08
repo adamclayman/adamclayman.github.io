@@ -1,0 +1,258 @@
+/* Universal */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, p, li {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.body {
+	position: relative;
+	background-color: #fffeea;
+	color: #34495e;
+}
+
+
+.container {
+	padding-top: 55px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+.container-fluid {
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+.header h1 {
+	text-align: center;
+}
+
+.image img {
+	width: 100%;
+}
+
+/* Navigation */
+.dropdown {
+}
+
+.dropdown-menu {
+}
+
+
+.project-name {
+	text-transform: uppercase;
+}
+
+.project-name a {
+	color: white;
+}
+
+/* Jumbotron & Carousel */
+.carousel-caption {
+	color: #111;
+	font-style: bold;
+	font-family: Futura, sans-serif;
+}
+
+.jumbotron {
+	background-image: url(../img/landscape.jpg);
+	background-size: cover;
+}
+
+.jumbotron p {
+	color: white;
+}
+
+
+/* Intro Section */
+.intro p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+div#about.container {
+	background-color: #CCC;
+	padding-bottom: 36px;
+}
+
+div.img-adam img {
+	align-items: center;
+}
+
+div.main-text p {
+	font-size: 1.5em;
+}
+
+ul#skill-list li {
+	font-size: 1.5em;
+}
+
+.skills {
+	background-color: #5AD4C2;
+	color: #FFF;
+}
+
+#skill-list {
+	margin-left: 0px;
+}
+
+/* Work Section */
+.work-img {
+	display: block;
+	margin: auto;
+	max-width: 200px;
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	top: 15%;
+	left: 22%;
+	color: #000;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	display: none;
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+/* Learn More */
+
+div.modal-button {
+	margin: auto;
+	padding: 15px;
+}
+
+div.modal-button button {
+	align-content: center;
+}
+
+.modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+.modal-content h1 {
+	margin-left: 32px;
+}
+
+
+.ui-state-active {
+	color: #000;
+}
+
+
+/* Map Page */
+#map {
+	height: 300px;
+    width: 100%;
+}
+
+
+/* Contact Page */
+#contact {
+	background-image: url("../img/contact.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: black;
+	padding: 100px 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+#email {
+	margin: 30px;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+}
+
+#email a {
+	color: white;
+}
+
+.form-control {
+	width: 80%;
+}
+
+.jumbotron #address p {
+	padding: 30px;
+	margin: 30px;
+	color: #E87600;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+}
+
+#telephone {
+	color: black;
+}
+
+/* Video Page */
+#video {
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+/* Footer */
+
+.footer {
+	display: block;
+	margin: auto;
+}
+.footer a:active {
+	color: #E87600;
+}
+
+.footer a:visited {
+	color: purple;
+}
+
+#share-buttons {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+
+#copyright {
+	display: block;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+#fb-like {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+#twitter-button {
+	display: block;
+	margin: auto;
+	width: 5%;
+}
