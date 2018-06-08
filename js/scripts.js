@@ -70,7 +70,7 @@ $(function() {
 		}
 	});
 
-	// Messsage-Submit Event Listener
+	// Message-Submit Event Listener
 	$("#message-submit").on("click", function() {
 		var comment = $('.message-box').val();
 		if (comment === "") {
@@ -99,12 +99,6 @@ $(function() {
 
       $("ul.dropdown-menu").append("<li><a href='#work"+i+"'>work "+i+"</a></li>");
 
-        var images = $("#work img");
-        if (i%2 === 0) {
-            $(images[i]).css("border", "2px solid DodgerBlue");
-        } else {
-            $(images[i]).css("border", "2px solid salmon");
-        };
     };
 
 	$(".work-img").mouseenter( function() {

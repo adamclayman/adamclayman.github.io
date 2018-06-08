@@ -1,22 +1,17 @@
 var works = [
 	{
-		title: "First Project",
-		pic: "img/zrostorage.jpeg",
+		title: "ZRO Storage",
+		pic: "img/zrostorage.jpg",
 		url: "work0"
 	},
 	{
-		title: "Second Project",
-		pic: "img/claymanfamily.jpeg",
+		title: "Clayman Family",
+		pic: "img/clayman.jpg",
 		url: "work1"
 	},
 	{
-		title: "Third Project",
-		pic: "img/adamclayman.jpeg",
+		title: "Adam Clayman Portfolio",
+		pic: "img/adamclayman.jpg",
 		url: "work2"
-	},
-	{
-		title: "Fourth Project",
-		pic: "http://www.animal-photography.com/thumbs/silver_tabby_kitten_looking_up~AP-0DLVMB-TH.jpg",
-		url: "work3"
 	}
 ];

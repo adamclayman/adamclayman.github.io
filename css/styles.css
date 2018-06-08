@@ -131,7 +131,7 @@ div#work-container {
 .work-img {
 	display: block;
 	margin: auto;
-	max-width: 200px;
+	max-width: 400px;
 	position: relative;
 }
 
@@ -156,6 +156,12 @@ div#work-container {
 
 .ui-state-active {
 	color: #000;
+}
+
+/* Parallax */
+div.parallax-window {
+	padding-top: 500px;
+	padding-bottom: 500px;
 }
 
 
@@ -222,7 +228,8 @@ div#contact {
 footer {
 	display: block;
 	margin: auto;
-	background-color: #EEE
+	background-color: #EEE;
+	padding-top: 100px;
 }
 .footer a:active {
 	color: #E87600;
