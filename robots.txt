@@ -1,0 +1,3 @@
+# Let's wait to index this site.
+User-agent: *
+Disallow: /

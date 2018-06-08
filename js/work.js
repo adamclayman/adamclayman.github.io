@@ -2,16 +2,16 @@ var works = [
 	{
 		title: "ZRO Storage",
 		pic: "img/zrostorage.jpg",
-		url: "work0"
+		url: "http://zrostorage.herokuapp.com"
 	},
 	{
 		title: "Clayman Family",
 		pic: "img/clayman.jpg",
-		url: "work1"
+		url: "http://www.clayman.org"
 	},
 	{
 		title: "Adam Clayman Portfolio",
 		pic: "img/adamclayman.jpg",
-		url: "work2"
+		url: "http://www.adamclayman.org"
 	}
 ];
