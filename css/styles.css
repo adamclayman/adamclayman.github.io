@@ -42,12 +42,6 @@ h1, h2, h3, p, li {
 }
 
 /* Navigation */
-.dropdown {
-}
-
-.dropdown-menu {
-}
-
 
 .project-name {
 	text-transform: uppercase;
@@ -92,6 +86,8 @@ div.main-text p {
 	font-size: 1.5em;
 }
 
+/* Modal Button */
+
 div.modal-button {
 	padding-top: 20px;
 }
@@ -110,6 +106,8 @@ div.modal-button button {
 	margin-left: 32px;
 }
 
+/* Skill List */
+
 ul#skill-list li {
 	font-size: 1.5em;
 }
@@ -126,47 +124,13 @@ ul#skill-list li {
 /* Work */
 
 div#work-container {
-	padding-bottom: 100px;
-}
-
-/* Image Hover */
-.thumbs li {
-  float: left;
-  background: #fff;
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
-
-.thumbs li,
-.thumbs li img {
-  display: block;
-  position: relative;
-}
-
-.hover-content {
-  background: rgba(75,75,75,0.9);
-  width: 100%;
-  height: 100%;
-  color: #fff;
-  padding: 10%;
-  font-size: 1.2em;
-}
-
-.hover-content p {
-  color: #fff;
-}
-
-.hover-content a {
-  color: #fff;
-  border-color: #fff;
-  margin-top: 5%;
-}
-
-/* Work Section */
-div#work-container {
 	padding: 100px;
 }
+
+div#work-container div h1 {
+	padding-bottom: 55px;
+}
+
 
 .work-img {
 	display: block;
@@ -179,7 +143,7 @@ div#work-container {
 	position: absolute;
 	top: 15%;
 	left: 22%;
-	color: #000;
+	color: #FFF;
 	font-family: Futura;
 	text-transform: uppercase;
 	font-weight: 700;
