@@ -145,7 +145,6 @@ div#work-container {
 }
 
 .hover-content {
-  position: absolute;
   background: rgba(75,75,75,0.9);
   width: 100%;
   height: 100%;
@@ -256,13 +255,9 @@ div#contact {
 	color: black;
 }
 
-/* Video Page */
-#video {
-	margin: 0 auto;
-	width: 100%;
+div#social-media a {
+	padding: 10px;
 }
-
-
 
 /* Footer */
 
@@ -279,6 +274,7 @@ footer {
 .footer a:visited {
 	color: purple;
 }
+
 
 #share-buttons {
 	display: block;
