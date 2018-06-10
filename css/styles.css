@@ -10,7 +10,7 @@ html, body {
 }
 
 h1, h2, h3, p, li {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .body {
@@ -52,6 +52,8 @@ h1, h2, h3, p, li {
 }
 
 /* Jumbotron & Carousel */
+
+
 .carousel-caption {
 	color: #111;
 	font-style: bold;
@@ -168,15 +170,33 @@ div.parallax-window {
 	padding-bottom: 500px;
 }
 
-
-/* Map Page */
-#map {
-	height: 300px;
-    width: 100%;
+div.parallax-window h1, h2 {
+	font-family: Roboto, sans-serif;
+	text-align: right;
+	padding-right: 50px;
 }
 
 
-/* Contact Page */
+/* Contact - Address Section */
+#meet-me {
+	margin: auto;
+}
+
+#address {
+	margin: auto;
+	align-content: center;
+	text-align: center;
+}
+
+#map {
+	height: 300px;
+    width: 100%;
+
+}
+
+
+
+/* Contact - Contact Me Section */
 div#contact {
 	background-image: url("../img/contact.jpg");
 	background-attachment: fixed;
