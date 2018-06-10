@@ -230,6 +230,7 @@ footer {
 	margin: auto;
 	background-color: #EEE;
 	padding-top: 100px;
+	padding-bottom: 50px;
 }
 .footer a:active {
 	color: #E87600;
