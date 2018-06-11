@@ -95,6 +95,11 @@ div.main-text p {
 	font-size: 1.5em;
 }
 
+div.img-adam {
+	text-align: center;
+	align-content: center;
+}
+
 div.img-adam img {
 	border-radius: 25px;
 }
@@ -122,8 +127,15 @@ div.modal-button button {
 
 /* Skill List */
 
+ul#skill-list {
+	list-style-type: none;
+	text-align: center;
+	padding-right: 35px;
+}
+
 ul#skill-list li {
 	font-size: 1.5em;
+
 }
 
 .skills {
@@ -184,8 +196,7 @@ div.parallax-window {
 
 div.parallax-window h1, h2 {
 	font-family: Roboto, sans-serif;
-	text-align: right;
-	padding-right: 50px;
+	text-align: center;
 }
 
 
@@ -210,13 +221,19 @@ div.parallax-window h1, h2 {
 
 /* Contact - Contact Me Section */
 div#contact {
-	background-image: url("../img/contact.jpg");
-	background-attachment: fixed;
-	background-size: cover;
 	background-color: #EEE;
 	color: black;
 	padding: 100px 0;
 	font-family: Helvetica, Arial, sans-serif;
+}
+
+div#meet-me h2 {
+	text-align: center;
+	padding-left: 20px;
+}
+
+div#address div p {
+	text-align: center;
 }
 
 
@@ -237,23 +254,19 @@ div#contact {
 	width: 80%;
 }
 
-.jumbotron #address p {
-	padding: 30px;
-	margin: 30px;
-	color: #E87600;
+div#contact-me div h2 {
 	text-align: center;
-	font-size: 2em;
-	font-weight: bold;
-	display: block;
 }
 
-#telephone {
-	color: black;
+div#social-media {
+	text-align: center;
 }
 
 div#social-media a {
 	padding: 10px;
 }
+
+
 
 /* Footer */
 
@@ -273,28 +286,9 @@ footer {
 }
 
 
-#share-buttons {
-	display: block;
-	margin: auto;
-	width: 100%;
-}
-
-
 #copyright {
 	display: block;
 	margin: auto;
 	width: 100%;
 	text-align: center;
-}
-
-#fb-like {
-	display: block;
-	margin: auto;
-	width: 100%;
-}
-
-#twitter-button {
-	display: block;
-	margin: auto;
-	width: 5%;
 }
