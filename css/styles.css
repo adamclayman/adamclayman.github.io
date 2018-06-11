@@ -69,6 +69,13 @@ h1, h2, h3, p, li {
 	color: white;
 }
 
+div#hero-subtext div div h2 {
+	text-align: center;
+}
+
+p#resume-button-1 {
+	text-align: center;
+}
 
 /* Intro Section */
 .intro p {
@@ -80,13 +87,18 @@ h1, h2, h3, p, li {
 
 div#about.container {
 	background-color: #CCC;
-	padding-bottom: 86px;
+	padding-bottom: 170px;
 }
 
 
 div.main-text p {
 	font-size: 1.5em;
 }
+
+div.img-adam img {
+	border-radius: 25px;
+}
+
 
 /* Modal Button */
 
